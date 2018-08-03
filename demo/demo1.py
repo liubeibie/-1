@@ -66,6 +66,7 @@ driver.find_element_by_name("capText").send_keys(code.strip())
 
 driver.find_element_by_xpath("//html/body/div/div/form/div[5]/a").click()
 
+
 driver.close()
 
 driver.quit()
